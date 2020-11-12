@@ -44,6 +44,7 @@ header nav li a{
     background-repeat: no-repeat;
     background-size:cover;
     position: relative;
+    z-index: -1;
 }
 .search .search_container {
     position: absolute;
@@ -68,5 +69,19 @@ header nav li a{
     background-image: url(./../images/Shape.png);
     float: right;
     margin-top: 3px;
+
+}
+.whyus {
+    background-color: #ffffff;
+    width: 1280px;
+    height: 395px;
+    margin: -134px 80px 0 80px;
+    z-index: 555;
+}
+.whyus h2 {
+    text-align: center;
+    padding: 40px;
+}
+
 
 }
