@@ -71,6 +71,7 @@ header nav li a{
     margin-top: 3px;
 
 }
+/*why us? section*/
 .whyus {
     background-color: #ffffff;
     width: 1280px;
@@ -78,10 +79,69 @@ header nav li a{
     margin: -134px 80px 0 80px;
     z-index: 555;
 }
-.whyus h2 {
+h2{
     text-align: center;
+    font-family: Open Sans ; 
+    font-Weight: 600; 
+    font-size: 40px;
+    font-style: normal;
+}
+.whyus h2 {  
     padding: 40px;
 }
+.whyus__content{
+    width: 1280px;
+    height: 186px;;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.whyus__container-item {
+    float: left;
+    width:210px;
+}
+.whyus__container-item img {
+    margin: 0px 60px 0px 59px;
+    align:center;
+}
+.whyus__container-item div {
+    font-size: 18px;
+    text-align:center;
+    margin-top: 42.21px;
+    font-family:Open Sans ; 
+    font-Weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.375px;
+    color: #465366;
+}
 
-
+/*Our Services section*/
+.ourservices {
+    margin-top:113px;
+}
+.ourservices__list{
+    width: 1272px;
+    height: 1348px;
+    margin-left: 84px;
+    margin-right: 84px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ourservices__list-item {
+    float: left;
+    width: 296px;
+    height: 296px;
+    flex: 29px; 
+}
+.ourservices__list-itemname {
+    margin-top:36px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    color: #808080;
+    letter-spacing: 0.625px;
+    text-align: center;
 }
