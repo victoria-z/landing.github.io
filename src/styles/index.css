@@ -106,7 +106,7 @@ h2{
 }
 .whyus__container-item div {
     font-size: 18px;
-    text-align:center;
+    text-align: center;
     margin-top: 42.21px;
     font-family:Open Sans ; 
     font-Weight: 600;
@@ -127,12 +127,12 @@ h2{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-start;
 }
 .ourservices__list-item {
     float: left;
     width: 296px;
     height: 296px;
-    flex: 29px; 
 }
 .ourservices__list-itemname {
     margin-top:36px;
@@ -141,7 +141,93 @@ h2{
     font-weight: 600;
     font-size: 30px;
     line-height: 41px;
+    text-align: center;
     color: #808080;
     letter-spacing: 0.625px;
+}
+
+/*request section*/
+.request h2{
+    margin-top: 120px;
+}
+form {
+    margin: 42px 370px 0 370px
+}
+::-webkit-input-placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px
+    color: #8B8B8B;
+    margin: 23px 0 10px 12px;
+}
+#emqil{
+    margin-top:42px;
+}
+.request__item input[type='text'] {
+    margin-top: 20px;
+    border: 1px solid #CBCBCB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 700px;
+    height: 52px;
+    left: 370px;
+}
+.request__item input[type='tel'] {
+    margin-top: 20px;
+    border: 1px solid #CBCBCB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 700px;
+    height: 52px;
+    left: 370px;
+}
+#message {
+    width: 700px;
+    height: 166px;
+    left: 370px;
+    top: 3281px;
+    border: 1px solid #CBCBCB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom:31px
+}
+.request input[type=checkbox] {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #CBCBCB;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.request label{
+    width: 291px;
+    height: 19px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+}
+.request input[type='submit']{
+    width: 700px;
+    height: 50px; 
+    background: #4A90E2;
+    border-radius: 4px;
+    margin-top: 42px;
+    margin-bottom: 14px;
+}
+.request .privacy {
+    width: 240px;
+    height: 16px;
+    left: 600px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
     text-align: center;
+    color: #474747;
 }
