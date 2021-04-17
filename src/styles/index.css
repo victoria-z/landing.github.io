@@ -98,11 +98,11 @@ h2{
 }
 .whyus__container-item {
     float: left;
-    width:210px;
+    width: 210px;
 }
 .whyus__container-item img {
     margin: 0px 60px 0px 59px;
-    align:center;
+    align: center;
 }
 .whyus__container-item div {
     font-size: 18px;
@@ -126,13 +126,14 @@ h2{
     margin-right: 84px;
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 .ourservices__list-item {
     float: left;
     width: 296px;
     height: 296px;
+    margin-right: 16px;
 }
 .ourservices__list-itemname {
     margin-top:36px;
@@ -147,18 +148,22 @@ h2{
 }
 
 /*request section*/
+.request {
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
 .request h2{
     margin-top: 120px;
 }
 form {
-    margin: 42px 370px 0 370px
 }
 ::-webkit-input-placeholder {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 19px
+    line-height: 19px;
     color: #8B8B8B;
     margin: 23px 0 10px 12px;
 }
@@ -220,9 +225,7 @@ form {
     margin-bottom: 14px;
 }
 .request .privacy {
-    width: 240px;
     height: 16px;
-    left: 600px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -230,4 +233,8 @@ form {
     line-height: 16px;
     text-align: center;
     color: #474747;
+}
+
+.request .privacy a {
+    display: inline-block;
 }
